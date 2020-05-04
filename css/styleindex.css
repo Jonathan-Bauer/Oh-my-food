@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url(css/normalize.css);
 @font-face {
   font-family: 'Vidaloka';
   src: url("polices/vidaloka-regular-webfont.woff2") format("woff2"), url("polices/vidaloka-regular-webfont.woff") format("woff"), url("polices/vidaloka-regular-webfont.otf") format("otf");
@@ -528,7 +529,7 @@ footer {
     font-size: 2.2rem; }
 
   .container {
-    width: 90%;
+    width: 100%;
     height: auto; }
 
   .en-tete {
